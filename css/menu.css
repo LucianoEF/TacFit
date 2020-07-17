@@ -1,0 +1,20 @@
+.menu {
+    /* margin: 05px; */
+    padding: 10px;
+    margin-top: -25px; /* distancia do topo da pagina até abaixo do logo */
+  }
+
+.divdireita {
+   /* margin: 05px;*/
+    padding: 10px; 
+    margin-top: -25px; /* distancia do topo da pagina até abaixo do logo */
+    margin-left: -15px; /* distancia do esquerdo da pagina */
+  }
+
+.divform {
+  /* margin: 05px;*/
+    padding: 10px; 
+    margin-top: -15px; /* distancia do topo da pagina até abaixo do logo */
+    margin-left: -15px; /* distancia do esquerdo da pagina */
+  }  
+

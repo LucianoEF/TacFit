@@ -1,0 +1,57 @@
+
+/* 
+    Created on : 27/12/2014, 11:21:52
+    Author     : Cleber
+    Css com base no site do kadunew.com 
+    http://www.kadunew.com/blog/css/como-criar-um-layout-de-3-colunas-com-css
+    para exebir um painel central com 3 divisões.
+*/
+
+geral {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#fff;
+}
+#geral {
+    width:960px;
+    margin:0 auto;
+    background:#fff;/*ddd;*/
+}
+#cabecalho {
+    padding:10px;
+    background:#fff;/*ddf;fdd;*/
+}
+#conteudo-1 {
+    float:left;
+    /* diminuimos a largura para não quebrar o layout. 
+	 * valor antigo 220
+	*/
+    width:220px;
+    background:#fff/*bfb*/;
+    padding:10px;
+}
+#conteudo-2 {
+    float:right;
+    width:720px;
+}
+#conteudo-2-1 {
+    float:left;
+    width:480px;
+    background:#fff;
+    padding:10px;
+}
+#conteudo-2-2 {
+    float:right;
+	/*diminuimos a largura para não quebrar o layout
+	 * valor antigo 220
+	*/
+    width:200px;
+    background:#fff/*dff*/;
+    padding:10px;
+}
+#rodape {
+    clear:both;
+    background:#CCC;
+    padding:10px;
+}
